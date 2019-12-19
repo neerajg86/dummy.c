@@ -11,7 +11,7 @@ void main()
 int x,y=0,t=maxheight,c=1;
 int gd=DETECT,gm;
 initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
-outtextxy(100,100,"bouncing ball");
+
 
 for(x=40;x<=getmaxx();x=x+2)
 {
